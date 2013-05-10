@@ -1,0 +1,40 @@
+/* *****************************
+ *
+ * Import file to Scss or Sass.
+ *
+ **************************** */
+
+@import "compass";
+$px13 : 100%;
+$px11 : 85%;
+
+@mixin gradient-top-lighten($color:#666, $lighten:10%){
+  background-color: $color;
+  @include filter-gradient(lighten($color, $lighten), $color, vertical);
+  @include background-image(linear-gradient(lighten($color, $lighten) 0%, $color 100%));
+}
+
+ h1{
+ 	font-size: 1.5em;
+ }
+nav{
+	@include gradient-top-lighten(#ccd);
+	li{
+		@include inline-block;
+	}
+	a{
+		width:100px;
+		padding:10px 15px;
+		display: block;
+		text-align: center;
+		vertical-align: middle;
+
+		&:hover{
+			@include gradient-top-lighten(#eef);
+		}
+	}
+}
+
+p{
+	font-size:$px11;
+}

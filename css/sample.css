@@ -1,0 +1,42 @@
+/* *****************************
+ *
+ * Import file to Scss or Sass.
+ *
+ **************************** */
+h1 {
+  font-size: 1.5em; }
+
+nav {
+  background-color: #ccccdd;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFEBEBF1', endColorstr='#FFCCCCDD');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ebebf1), color-stop(100%, #ccccdd));
+  background-image: -webkit-linear-gradient(#ebebf1 0%, #ccccdd 100%);
+  background-image: -moz-linear-gradient(#ebebf1 0%, #ccccdd 100%);
+  background-image: -o-linear-gradient(#ebebf1 0%, #ccccdd 100%);
+  background-image: linear-gradient(#ebebf1 0%, #ccccdd 100%); }
+  nav li {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline; }
+  nav a {
+    width: 100px;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    vertical-align: middle; }
+    nav a:hover {
+      background-color: #eeeeff;
+      *zoom: 1;
+      filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFEEEEFF');
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #eeeeff));
+      background-image: -webkit-linear-gradient(#ffffff 0%, #eeeeff 100%);
+      background-image: -moz-linear-gradient(#ffffff 0%, #eeeeff 100%);
+      background-image: -o-linear-gradient(#ffffff 0%, #eeeeff 100%);
+      background-image: linear-gradient(#ffffff 0%, #eeeeff 100%); }
+
+p {
+  font-size: 85%; }
