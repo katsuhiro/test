@@ -11,7 +11,7 @@ $px11 : 85%;
 @mixin gradient-top-lighten($color:#666, $lighten:10%){
   background-color: $color;
   @include filter-gradient(lighten($color, $lighten), $color, vertical);
-  @include background-image(linear-gradient(lighten($color, $lighten) 0%, $color 50%));
+  @include background-image(linear-gradient(lighten($color, $lighten) 0%, $color 60%));
 }
 
  h1{
